@@ -12,10 +12,6 @@ class SwagLabs(BasePage):
         return True
 
 
-    def click_on_the_icon(self):
-        self.find_element(locator = 'div.login_logo').click
-
-
     def user_name(self):
         try:
             self.find_element(locator = '#user-name')
